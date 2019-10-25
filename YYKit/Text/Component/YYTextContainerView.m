@@ -84,7 +84,7 @@
     }
     
     // draw layout
-    CGSize boundingSize = _layout.textBoundingSize;
+    CGSize boundingSize = _layout.textBoundingRect.size;
     CGPoint point = CGPointZero;
     if (_textVerticalAlignment == YYTextVerticalAlignmentCenter) {
         if (_layout.container.isVerticalForm) {
